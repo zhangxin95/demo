@@ -1,0 +1,44 @@
+.box-con{
+	width:1200px;
+	margin: 0 auto;
+}
+.box-l{
+	margin: 50px 0 0 50px;
+	position: relative;
+	border: 1px solid #ccc;
+	width: 350px;
+	height: 350px;
+}
+.box-l .box-l-img{
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.box-s{
+	position: absolute;
+	left: 360px;
+	top: 0;
+	width: 400px;
+	height: 400px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	display: none;
+}
+.box-s img{
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.box-mark{
+	border: 1px solid #6C6C6C;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 175px;
+	height: 175px;
+	display: none;
+}
